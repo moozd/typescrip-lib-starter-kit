@@ -1,5 +1,5 @@
 {
-  "name": "node-starter-kit",
+  "name": "node-lib-starter-kit",
   "version": "1.0.0",
   "license": "MIT",
   "sideEffects": false,
@@ -12,6 +12,10 @@
   },
   "exports": {
     ".": "./dist/index.js"
+  },
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/",
+    "tag": "latest"
   },
   "devDependencies": {
     "@types/jest": "^29.5.0",
