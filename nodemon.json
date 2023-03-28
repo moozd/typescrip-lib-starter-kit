@@ -1,0 +1,6 @@
+{
+  "quiet": true,
+  "execMap": {
+    "ts": "ts-node --esm"
+  }
+}
